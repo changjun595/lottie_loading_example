@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Center(
-            child: Lottie.network('https://assets7.lottiefiles.com/packages/lf20_KEahK5k9Mf.json',
+            child: Lottie.network('your url',
             animate: true),
           ),
           ElevatedButton(
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Lottie.network('https://assets10.lottiefiles.com/private_files/lf30_yo2zavgg.json',
+          Lottie.network('your url',
           repeat: false,
           controller: controller,
           onLoaded: (composition){
